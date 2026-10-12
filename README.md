@@ -1,90 +1,86 @@
+# awesome-low-level-design
+
+## What This Is
+
+This is part of the Swift Tech Co. working stack for product and engineering. It gathers the awesome-low-level-design notes, examples and fixes that keep delivery fast, and doubles as the reference map we hand to whoever picks up this thread next.
 
 ## Images
 
-[![awesome-low-level-design](https://opengraph.githubassets.com/1/ashishps1/awesome-low-level-design)](https://www.swifttechco.com)
-
-<p align="center">
-  <img src="images/lld-repo-logo.png" width="350" height="200">
-</p>
-<p align="center">
-  <a href="https://www.swifttechco.com">Join Free Newsletter</a>
-</p>
-
-This repository contains resources to learn Low Level Design (LLD) / Object Oriented Design (OOD) and prepare for interviews. It covers OOP fundamentals, design patterns, UML, concurrency and commonly asked interview questions.
+[![awesome-low-level-design](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## 🏁 Start Here
-- [How to Learn LLD](https://www.swifttechco.com)
-- [15 Must-Know OOP Concepts](https://www.swifttechco.com)
+- How to Learn LLD
+- 15 Must-Know OOP Concepts
 
 ## 🧱 OOP Fundamentals
-- [Classes and Objects](https://www.swifttechco.com)
-- [Enums](https://www.swifttechco.com)
-- [Interfaces](https://www.swifttechco.com)
-- [Encapsulation](https://www.swifttechco.com)
-- [Abstraction](https://www.swifttechco.com)
-- [Inheritance](https://www.swifttechco.com)
-- [Polymorphism](https://www.swifttechco.com)
+- Classes and Objects
+- Enums
+- Interfaces
+- Encapsulation
+- Abstraction
+- Inheritance
+- Polymorphism
 
 ## 🔗 Class Relationships
-- [Association](https://www.swifttechco.com)
-- [Aggregation](https://www.swifttechco.com)
-- [Composition](https://www.swifttechco.com)
-- [Dependency](https://www.swifttechco.com)
+- Association
+- Aggregation
+- Composition
+- Dependency
 
 ## 🧭 Design Principles
-- [DRY Principle](https://www.swifttechco.com)
-- [YAGNI Principle](https://www.swifttechco.com)
-- [KISS Principle](https://www.swifttechco.com)
-- [SOLID Principles with Pictures](https://www.swifttechco.com)
-- [SOLID Principles with Code](https://www.swifttechco.com)
+- DRY Principle
+- YAGNI Principle
+- KISS Principle
+- SOLID Principles with Pictures
+- SOLID Principles with Code
 
 ## 🧩 Design Patterns
 
 | **Creational Patterns**                                                       | **Structural Patterns**                                         | **Behavioral Patterns**                                                               |
 | ----------------------------------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| [Singleton](https://www.swifttechco.com)            | [Adapter](https://www.swifttechco.com)     | [Iterator](https://www.swifttechco.com)                         |
-| [Factory Method](https://www.swifttechco.com)     | [Bridge](https://www.swifttechco.com)       | [Observer](https://www.swifttechco.com)                         |
-| [Abstract Factory](https://www.swifttechco.com) | [Composite](https://www.swifttechco.com) | [Strategy](https://www.swifttechco.com)                         |
-| [Builder](https://www.swifttechco.com)                   | [Decorator](https://www.swifttechco.com) | [Command](https://www.swifttechco.com)                           |
-| [Prototype](https://www.swifttechco.com)               | [Facade](https://www.swifttechco.com)       | [State](https://www.swifttechco.com)                               |
-|                                                                               | [Flyweight](https://www.swifttechco.com) | [Template Method](https://www.swifttechco.com)           |
-|                                                                               | [Proxy](https://www.swifttechco.com)         | [Visitor](https://www.swifttechco.com)                           |
-|                                                                               |                                                                 | [Mediator](https://www.swifttechco.com)                         |
-|                                                                               |                                                                 | [Memento](https://www.swifttechco.com)                           |
-|                                                                               |                                                                 | [Chain of Responsibility](https://www.swifttechco.com) |
+| Singleton            | Adapter     | Iterator                         |
+| Factory Method     | Bridge       | Observer                         |
+| Abstract Factory | Composite | Strategy                         |
+| Builder                   | Decorator | Command                           |
+| Prototype               | Facade       | State                               |
+|                                                                               | Flyweight | Template Method           |
+|                                                                               | Proxy         | Visitor                           |
+|                                                                               |                                                                 | Mediator                         |
+|                                                                               |                                                                 | Memento                           |
+|                                                                               |                                                                 | Chain of Responsibility |
 
 ## 🗂️ UML
-- [Class Diagram](https://www.swifttechco.com)
-- [Use Case Diagram](https://www.swifttechco.com)
-- [Sequence Diagram](https://www.swifttechco.com)
-- [Activity Diagram](https://www.swifttechco.com)
-- [State Machine Diagram](https://www.swifttechco.com)
+- Class Diagram
+- Use Case Diagram
+- Sequence Diagram
+- Activity Diagram
+- State Machine Diagram
 
 ## ⏱️ Concurrency and Multi-threading Concepts
 ### Concurrency 101
-- [Introduction to Concurrency](https://www.swifttechco.com)
-- [Concurrency vs Parallelism](https://www.swifttechco.com)
-- [Processes vs Threads](https://www.swifttechco.com)
-- [Thread Lifecycle and States](https://www.swifttechco.com)
-- [Race Conditions and Critical Sections](https://www.swifttechco.com)
+- Introduction to Concurrency
+- Concurrency vs Parallelism
+- Processes vs Threads
+- Thread Lifecycle and States
+- Race Conditions and Critical Sections
 ### Synchronization Primitives
-- [Mutex (Mutual Exclusion)](https://www.swifttechco.com)
-- [Semaphores](https://www.swifttechco.com)
-- [Condition Variables](https://www.swifttechco.com)
-- [Coarse-grained vs Fine-grained Locking](https://www.swifttechco.com)
-- [Reentrant Locks](https://www.swifttechco.com)
-- [Try-Lock and Timed Locking](https://www.swifttechco.com)
-- [Compare-and-Swap (CAS)](https://www.swifttechco.com)
+- Mutex (Mutual Exclusion)
+- Semaphores
+- Condition Variables
+- Coarse-grained vs Fine-grained Locking
+- Reentrant Locks
+- Try-Lock and Timed Locking
+- Compare-and-Swap (CAS)
 ### Concurrency Challenges
-- [Deadlock](https://www.swifttechco.com)
-- [Livelock](https://www.swifttechco.com)
+- Deadlock
+- Livelock
 ### Concurrency Patterns
-- [Signaling Pattern](https://www.swifttechco.com)
-- [Thread Pool Pattern](https://www.swifttechco.com)
-- [Producer-Consumer Pattern](https://www.swifttechco.com)
-- [Reader-Writer Pattern](https://www.swifttechco.com)
+- Signaling Pattern
+- Thread Pool Pattern
+- Producer-Consumer Pattern
+- Reader-Writer Pattern
 
-## ✅ [How to Answer a LLD Interview Problem](https://www.swifttechco.com)
+## ✅ How to Answer a LLD Interview Problem
 <img src="images/interview-template.png" width="350" height="250">
 
 ## 💻 Low Level Design Interview Problems
@@ -132,32 +128,32 @@ This repository contains resources to learn Low Level Design (LLD) / Object Orie
 
 ## ⏱️ Concurrency and Multi-threading Problems
 
-- [Print FooBar Alternately](https://www.swifttechco.com)
-- [Print Zero Even Odd](https://www.swifttechco.com)
-- [Fizz Buzz Multithreaded](https://www.swifttechco.com)
-- [Building H2O Molecule](https://www.swifttechco.com)
-- [Design Thread-Safe Cache with TTL](https://www.swifttechco.com)
-- [Design Concurrent HashMap](https://www.swifttechco.com)
-- [Design Thread-Safe Blocking Queue](https://www.swifttechco.com)
-- [Design Concurrent Bloom Filter](https://www.swifttechco.com)
-- [Multi-threaded Merge Sort](https://www.swifttechco.com)
+- Print FooBar Alternately
+- Print Zero Even Odd
+- Fizz Buzz Multithreaded
+- Building H2O Molecule
+- Design Thread-Safe Cache with TTL
+- Design Concurrent HashMap
+- Design Thread-Safe Blocking Queue
+- Design Concurrent Bloom Filter
+- Multi-threaded Merge Sort
 
 ## 📇 Courses
-- [Master LLD Interviews - AlgoMaster.io](https://www.swifttechco.com)
-- [Master Concurrency Interviews - AlgoMaster.io](https://www.swifttechco.com)
+- Master LLD Interviews - AlgoMaster.io
+- Master Concurrency Interviews - AlgoMaster.io
 
 ## 📚 Books
-- [Head First Design Patterns](https://www.swifttechco.com)
-- [Clean Code](https://www.swifttechco.com)
-- [Refactoring: Improving the Design of Existing Code](https://www.swifttechco.com)
+- Head First Design Patterns
+- Clean Code
+- Refactoring: Improving the Design of Existing Code
 
 ## 📩 Newsletter
-- [AlgoMaster Newsletter](https://www.swifttechco.com)
+- AlgoMaster Newsletter
 
 ## Additional resources
-- [Coursera - Object-Oriented Design](https://www.swifttechco.com)
-- [Coursera - Design Patterns](https://www.swifttechco.com)
-- [Github - Awesome Design Patterns](https://www.swifttechco.com)
+- Coursera - Object-Oriented Design
+- Coursera - Design Patterns
+- Github - Awesome Design Patterns
 
 ## 🤝 Contributing
 Contributions are welcome! If you'd like to add a new problem, improve existing content, or fix errors:
@@ -184,14 +180,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [ashishps1/awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
